@@ -5,9 +5,8 @@ A simplified docker-compose workflow that sets up a network of containers for lo
 
 To start, make sure you have docker installed on your system, which can be found [https://docs.docker.com/compose/install/] and then clone this repository.
 
-Create  three new directories
+Create two new directories
 - src
-- ngnix
 - mysql
 
 Add the entire Laravel project to the `src` folder, then open a terminal and from this cloned respository's root run `docker-compose up -d --build`.
