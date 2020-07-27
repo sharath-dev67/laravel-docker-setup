@@ -20,7 +20,7 @@ Use the following command templates from your project root, modifiying them to f
 - `docker-compose run --rm composer update`
 - `docker-compose run --rm npm run dev`
 - `docker-compose run --rm artisan migrate` 
-- `docker-compose run --rm artisan seed`
+- `docker-compose run --rm artisan db:seed`
 
 Containers created and their ports (if used) are as follows:
 
